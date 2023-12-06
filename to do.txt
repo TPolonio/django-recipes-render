@@ -1,0 +1,14 @@
+login/register done
+create/update/delete recipes (class based) done
+user profiles with avatar done
+user recipes done
+add time and difficulty of recipe done
+pagination done
+search function done
+#EXPORTACOES DE RECEITAS (reportlab) done
+testing done
+
+restrictions on forms
+recipe likes
+change to postgres
+apagar user/profile

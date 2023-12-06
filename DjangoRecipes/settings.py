@@ -12,6 +12,14 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os
+import dj_database_url
+
+postgres_db_url = "postgres://django_recipes_postgres_user:TnQfNe4CMFfMHygCvqcXbzkRg8CC44WU@dpg-clo970sjtl8s73am5ko0-a.frankfurt-postgres.render.com/django_recipes_postgres"
+
+# Update the DATABASES configuration
+DATABASES = {
+    "default": dj_database_url.parse(postgres_db_url),
+}
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
